@@ -37,28 +37,35 @@ const Form = () => {
     return (
         <div className={styles.container}>
             <div className={styles.formWrapper}>
+                <div className={styles.headline}>
+                    <h1>💃 🪩 🕺</h1>
+                    <h1>Disco Helper</h1>
+                    <div className={styles.description}>
+                    <p>Disco helper helps teams uncover root causes of prospective buyer business challenges and pain</p>
+                    </div>
+                </div>
                 <form onSubmit={handleSubmit}>
                     <div className={styles.formGroup}>
                         <label className={styles.label} htmlFor="businessName">Prospect Business Name</label>
                         <input className={styles.input} type="text" name="businessName" value={formData.businessName} onChange={handleChange} />
                     </div>
                     <div className={styles.formGroup}>
-                        <label className={styles.label} htmlFor="opportunityArea">Business Challenges Or Pain</label>
+                        <label className={styles.label} htmlFor="opportunityArea">Business Challenges / Pain</label>
                         <input className={styles.input} type="text" name="opportunityArea" value={formData.opportunityArea} onChange={handleChange} />
                     </div>
                     <div className={styles.formGroup}>
-                        <label className={styles.label} htmlFor="persona">Prospect Persona</label>
+                        <label className={styles.label} htmlFor="persona">Prospect Persona / Job Title</label>
                         <input className={styles.input} type="text" name="persona" value={formData.persona} onChange={handleChange} />
                     </div>
                     <div className={styles.formGroup}>
-                        <label className={styles.label} htmlFor="questions">Context On What We Currently Know</label>
+                        <label className={styles.label} htmlFor="questions">Opportunity Context / What We Currently Know</label>
                         <textarea className={styles.input} name="questions" value={formData.questions} onChange={handleChange}></textarea>
                     </div>
                     <button className={styles.submitBtn} type="submit"><span>Generate Discovery Questions</span></button>
                 </form>
                 {aiResponse.length > 0 && (
                     <div className={styles.response}>
-                        <p>Ask the provided follow up questions in a sequential style to help uncover root causes of your prospective buyers business challenges and pain:</p>
+                        <p>Ask these follow up questions in a sequential style to help build rapport, and uncover root causes of your prospective buyers business challenges and pain:</p>
                         <br />
                         <ul className={styles.responseList}>
                             {aiResponse.map((question, index) => (

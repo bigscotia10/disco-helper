@@ -16,7 +16,7 @@ export default async function handler(req, res) {
             }, {
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': `Bearer API-KEY-HERE`,
+                    'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
                 },
             });
 

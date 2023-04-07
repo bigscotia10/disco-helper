@@ -1,25 +1,19 @@
-Presales Sandler Discovery Questions Tool
-This is a sales enablement tool developed using the Presales Sandler selling method for identifying critical business issues during the discovery process. The tool uses tailored prompts and OpenAI APIs to provide an extensive range of discovery questions that help you uncover the most important issues in a given business.
+# Sandler Method Discovery Questions App
 
-Installation
-To install this tool, follow these steps:
+This app is designed to help businesses use the Sandler Method to uncover critical business issues. To use the app, follow these steps:
 
-Clone the repository to your local machine.
-Run npm install to install the necessary dependencies.
-Run npm run dev to start the development server.
-Open http://localhost:3000 to view the app in your browser.
-Usage
-To use this tool, follow these steps:
+1. Install the app by running `npm install`
+2. Start the app by running `npm run dev`
+3. Open [http://localhost:3000](http://localhost:3000) to use the app
 
-Open the app in your browser.
-Choose a category that you want to ask discovery questions about.
-The app will provide you with a list of tailored prompts to ask in order to uncover the critical business issues.
-Use the prompts to guide your discovery process and identify the most important issues for your business.
-Contributing
-This app is open source and contributions are welcome. To contribute, please follow these steps:
+## How it works
 
-Fork the repository to your own account.
-Make any necessary changes and commit them to your forked repository.
-Submit a pull request to the original repository for review and potential inclusion in the project.
-License
-This app is licensed under the MIT License. See the LICENSE file for details.
+The Sandler Method is a proven sales methodology that helps businesses ask the right questions to uncover critical business issues. This app uses the Sandler Method to provide a range of discovery questions that businesses can use to identify their most pressing issues.
+
+## Open Source
+
+This app is open source, and we welcome contributions from the community. You can find the code for this app on [GitHub](https://github.com/yourusername/your-repository).
+
+## License
+
+This app is licensed under the [MIT License](https://opensource.org/licenses/MIT).

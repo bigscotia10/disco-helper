@@ -2,9 +2,12 @@
 
 This app is designed to help businesses use the Sandler Method to uncover critical business issues. To use the app, follow these steps:
 
-1. Install the app by running `npm install`
-2. Start the app by running `npm run dev`
-3. Open [http://localhost:3000](http://localhost:3000) to use the app
+1. Clone this repository to your local machine.
+2. Run npm install to install the necessary dependencies.
+3. Create a .env file in the root directory of the app.
+4. In the .env file, add OPENAI_API_KEY=<your_openai_api_key>.
+5. Run npm run dev to start the development server.
+6. Open http://localhost:3000 in your web browser to use the app.
 
 ## How it works
 
@@ -12,7 +15,7 @@ The Sandler Method is a proven sales methodology that helps businesses ask the r
 
 ## Open Source
 
-This app is open source, and we welcome contributions from the community. You can find the code for this app on [GitHub](https://github.com/yourusername/your-repository).
+This app is open source, and we welcome contributions from the community. You can find the code for this app on [GitHub](https://github.com/bigscotia10/disco-helper).
 
 ## License
 

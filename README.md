@@ -1,4 +1,7 @@
-# Sandler Method Discovery Questions App
+
+# 💃 🪩 🕺 Disco Helper 
+
+## Sandler Method Discovery Questions App
 
 This app is designed to help businesses use the Sandler Method to uncover critical business issues. To use the app, follow these steps:
 
@@ -11,7 +14,7 @@ This app is designed to help businesses use the Sandler Method to uncover critic
 
 ## How it works
 
-The Sandler Method is a proven sales methodology that helps businesses ask the right questions to uncover critical business issues. This app uses the Sandler Method to provide a range of discovery questions that businesses can use to identify their most pressing issues.
+The Sandler Method is a proven sales methodology that helps businesses ask the right questions to uncover critical business issues. This app uses the Sandler Method to provide a range of sequential discovery questions that businesses can use to identify the root cause of their most pressing issues.
 
 ## Open Source
 
